@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma IT</title>
+    <link rel="shortcut icon" href="sadsa.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="logo">
+            
+            <img src="sadsa.PNG" alt="firma it"></div>
+        
+        
+            <div class="menu">
+        <a href="index.html">Strona Główna</a>
+            <a href="uslugi.html">Usługi</a>
+            <a href="kontakt.html">Kontakt</a>
+    
+    
+    
+    
+    
+    </div>
+
+
+        <div class="baner">
+
+            <img src="Przechwytywanie.PNG" alt="Usłgi informatyczne">
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="main">
+
+           <h2>Kontakt</h2>
+           <table>
+            <tr>
+                <td>Imie:</td>
+                <td><input type="text" name="name" id="imie"></td>
+            </tr>
+            <tr>
+                <td>Nazwisko:</td>
+                <td><input type="text" name="lastname" id="nazwisko"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Zgloszenia:</td>
+                <td><textarea name="zgloszenia" id="zgloszenia" cols="40" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="regulamin" id="regulammin">Zapoznałam/em się z regulaminem</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button id="reset">reset</button> <button id="przeslij">przeslij</button></td>
+            </tr>
+           </table>
+
+           <hr>
+           <p id="wynik"></p>
+
+        </div>
+
+
+        <div class="footer">
+
+            Autor strony <b>2389</b>
+
+        </div>
+    </div>
+    <script>
+        const przeslij = document.querySelector("#przeslij");
+        const reset = document.querySelector("#reset");
+
+        przeslij.addEventListener("click, () =>"{
+        let imie = document.querySelector("#imie").value;
+        let naziwsko = document.querySelector("#nazwisko").value;
+        const email = document.querySelector("#email").value;
+        const zgloszenia = document.querySelector("#zgloszenia").value;
+        const zapoznanie = document.querySelector("#regulamin").checked;
+        
+    
+    
+    });
+       
+        
+
+
+    </script>
+</body>
+</html>
